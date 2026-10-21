@@ -1,21 +1,20 @@
-# Industry Research Skill · 行业研究技能
+# 行业研究技能
 
 用 Codex 开展可追溯、可审查、可接续的行业研究。
-Conduct traceable, reviewable, and resumable industry research with Codex.
 
-[返回双语首页](README.md) · [English](README.md#english)
+[返回双语首页](README.md)
 
-## 中文介绍
+## 项目简介
 
 这是一个结构化研究工作流，帮助 Codex 将分散材料整理为依据可追溯、结论有边界、能够跨会话接续的研究记录与报告。
 
-### 适用人群与任务
+## 适用人群与任务
 
 面向行业与市场分析人员；战略、咨询及商业分析人员；创业者和产品经理；开展商业研究的学生与独立研究者。
 
 适用任务包括行业或细分市场研究、市场与竞争格局梳理、多来源材料综合、商业机会的初步证据评估，以及已有研究的审阅与接续。这些是适用场景，不代表每个场景都已分别通过测试。单条事实查询或已有报告排版通常不需要完整流程。
 
-### 核心功能
+## 核心功能
 
 - **重要结论可追溯到依据。** 记录来源、口径、期间、单位及其对主张的支持，便于读者检查结论基础。
 - **冲突、假设和未知保持可见。** 通过阶段审查和有边界的结论，避免流畅写作掩盖未解决的证据问题。
@@ -23,21 +22,21 @@ Conduct traceable, reviewable, and resumable industry research with Codex.
 
 仅维护一套英文运行时，包括主 Skill、四份参考文件和六份按需模板。商业参数、简单情景及所提供访谈材料的分析按需启用。范围、证据充分性、冲突处置和决策仍需要人工判断。
 
-### 最短上手步骤
+## 快速开始
 
-1. 在 GitHub 点击 **Code → Download ZIP** 并解压，或使用此 GitHub 页面显示的仓库地址克隆：
-
-   ```sh
-   git clone https://github.com/Zhn-Rui/industry-research-skill.git
-   cd industry-research-skill
-   ```
+1. 在 GitHub 点击 **Code → Download ZIP** 并解压，或使用下方命令克隆。
 
    下载或克隆不等同于自动安装或启用 Skill。
 2. 在 Codex 中打开解压或克隆后的目录，请其读取并遵循 [skills/industry-research/SKILL.md](skills/industry-research/SKILL.md)。
 3. 提供主题、范围（地区、期间、资料截止日）、问题、已有材料、允许的工具和输出目录。下方示例可以直接复制。
 4. 在指定输出目录查看报告与局限，检查证据和审查记录；随后让 Codex 补充缺口，或根据保存的接续索引继续研究。
 
-### 可复制使用示例
+```sh
+git clone https://github.com/Zhn-Rui/industry-research-skill.git
+cd industry-research-skill
+```
+
+## 使用示例
 
 ```text
 请读取并遵循 skills/industry-research/SKILL.md。研究 2024 年欧洲乘用电动车市场，梳理市场变化与竞争格局；仅使用我随后提供的材料，不开展网络检索。优先精简模式，使用中文，输出到 research-output/。先确认范围和材料是否足够，区分有依据的结论、冲突、假设和未知，保留证据引用、审查记录与新会话接续索引。材料不足时披露局限，不补造事实。
@@ -45,7 +44,7 @@ Conduct traceable, reviewable, and resumable industry research with Codex.
 
 此提示用于演示用法，不是新增测试结果。开始收集证据前需提供材料。如需研究新的公开资料，应明确允许检索及原文读取，并使用具备相应能力的 Codex 环境。
 
-### 在新会话恢复研究
+## 跨会话接续
 
 保留输出目录，让新的 Codex 会话能够同时读取它与本仓库，然后复制：
 
@@ -55,7 +54,7 @@ Conduct traceable, reviewable, and resumable industry research with Codex.
 
 精简模式的接续索引通常位于 `research.md`，完整模式可使用独立记录。历史 PASS 本身不足以支持接续。详见 [审查与恢复](skills/industry-research/references/review-recovery.md)。
 
-### 精简与完整模式
+## 研究模式
 
 | 模式 | 适用情况 | 组织方式 |
 |---|---|---|
@@ -64,7 +63,7 @@ Conduct traceable, reviewable, and resumable industry research with Codex.
 
 记录选择及依据。模板规定字段，不是六文件配额。两种模式都要求可追溯、反证与未知可见、局限披露，以及实际执行所声称的检查。每类逻辑记录只有一个权威位置。
 
-### 工具能力要求
+## 能力要求与降级
 
 - 读取材料、写文本并检查实际输出。不能写文件时提供可保存文本，披露尚未持久化。
 - 新公开资料研究需要检索与原文读取。离线只使用已有材料；不可读来源仍为线索。
@@ -74,7 +73,7 @@ Conduct traceable, reviewable, and resumable industry research with Codex.
 
 目前围绕 Codex 使用，未测试其他代理平台兼容性。仅维护一套英文运行时；交付语言优先遵循明确要求，否则跟随任务语言。路径、ID 和规范状态值保持稳定，包括 `可用`、`已批准`、`按例外关闭` 等既有值。
 
-### 测试范围与已知局限
+## 验证与局限
 
 中文历史版本进行过合成、完整深度、配对及窄范围真实来源/接续测试。三组历史配对未观察到核心质量评分提升；产物更大、自报时长更长，工具调用变化有升有降。不支持提高准确率或降低成本的宣称。
 
@@ -84,7 +83,7 @@ Conduct traceable, reviewable, and resumable industry research with Codex.
 
 人工判断仍然必要。不默认提供付费数据库、访谈招募或外联；不承诺自动完成投资决策、专业尽调或事实认证。工具与证据的局限会约束交付。
 
-### 项目来源、许可证与反馈
+## 来源、许可与反馈
 
 该流程源自一次具身智能数据市场研究，随后被提炼为适用于其他行业的研究工作流。私人访谈、原始报告、第三方原文副本及开发历史均不公开。见 [公开文件清单](PUBLIC_FILES.md) 和 [发布说明](RELEASE_NOTES.md)。
 
