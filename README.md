@@ -13,6 +13,36 @@ A structured workflow that helps Codex turn scattered research materials into ev
 
 这是一个结构化研究工作流，帮助 Codex 将分散材料整理为依据可追溯、结论有边界、能够跨会话接续的研究记录与报告。
 
+## Example · 研究示例
+
+```text
+Did the European electric passenger-car market contract overall in 2024 versus 2023? Which demand conclusions are supported, and which remain unproven?
+```
+
+Historical example; original sources accessed 21 October 2026. Edited display copy of a completed Chinese trial, with an English translation.
+
+[![2024 report preview: EU27 BEV registrations fell 5.9%, compared with 1.3% for EU+EFTA+UK; universal demand decline is unproven.](examples/europe-ev-2024/preview.en.png)](examples/europe-ev-2024/report.md)
+
+- EU27 BEV registrations fell 5.9%; ACEA's EU+EFTA+UK coverage fell 1.3%.
+- UK BEVs grew 21.4%, while Germany fell 27.4%; national changes differed.
+- The UK's −8.7% private-car figure covers all powertrains; it does not establish a private-BEV decline.
+
+[Full report](examples/europe-ev-2024/report.md) · [Evidence and conflicts](examples/europe-ev-2024/research-notes.md) · [Resume example](examples/europe-ev-2024/resume-prompt.md) · [Case and reuse](examples/europe-ev-2024/README.md)
+
+```text
+2024年相对2023年，欧洲电动乘用车市场是否整体收缩？哪些需求结论有依据，哪些尚不能得出？
+```
+
+历史研究示例，原资料访问日为2026年10月21日；依据已完成中文试用整理为展示副本，并提供英文翻译。
+
+[![2024年中文报告预览：EU27纯电注册量下降5.9%，EU加EFTA及英国下降1.3%；不能据此认定需求全面收缩。](examples/europe-ev-2024/preview.zh-CN.png)](examples/europe-ev-2024/report.zh-CN.md)
+
+- EU27纯电注册量下降5.9%；ACEA的EU加EFTA及英国范围下降1.3%。
+- 英国纯电增长21.4%，德国下降27.4%，国家表现分化。
+- 英国私人新车下降8.7%覆盖全部动力，不能证明私人纯电同比下降。
+
+[完整报告](examples/europe-ev-2024/report.zh-CN.md) · [证据与冲突](examples/europe-ev-2024/research-notes.md) · [接续示例](examples/europe-ev-2024/resume-prompt.md) · [案例与复用](examples/europe-ev-2024/README.md)
+
 ## Who It Is For · 适用人群与任务
 
 For industry and market analysts; strategy, consulting, and business analysts; founders and product managers; and students and independent researchers doing business research.
